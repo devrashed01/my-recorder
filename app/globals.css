@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+button {
+  @apply capitalize text-sm py-1 px-3 bg-blue-400 text-white rounded-md;
+}
+
+label {
+  @apply select-none;
+}
